@@ -1,0 +1,41 @@
+.loginContainer {
+  background-color: black;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  color: white;
+  font-family: Roboto;
+}
+.loginInnerContainer {
+  background-color: #272727;
+  padding: 40px 30px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+input {
+  background-color: transparent;
+  width: 300px;
+  padding: 7px;
+  border: 0.8px solid #b6c5ff;
+  border-radius: 5px;
+  outline: none;
+  color: white;
+}
+.submitBtn {
+  background-color: #6366f1;
+  border: none;
+  border-radius: 10px;
+  padding: 10px;
+  color: white;
+  cursor: pointer;
+}
+.errorMsg {
+  color: red;
+}
